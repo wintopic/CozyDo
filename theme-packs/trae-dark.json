@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "kind": "theme-pack",
+  "name": "Trae Dark",
+  "basePreset": "trae-dark",
+  "tokens": {
+    "--primary": "#d8ecf3",
+    "--primary-high": "#a9c4cf",
+    "--primary-medium": "#7e9baa",
+    "--secondary": "#0d151a",
+    "--tertiary": "#2ec9d3",
+    "--header_background": "#101a20",
+    "--header_primary": "#d8ecf3",
+    "--background-color": "#091015",
+    "--d-content-background": "#0f1b22",
+    "--d-selected": "#18313b",
+    "--d-hover": "rgba(46, 201, 211, 0.20)",
+    "--link-color": "#5adce4",
+    "--link-color-hover": "#89eaf0",
+    "--content-border-color": "#1e3640",
+    "--d-button-default-border": "1px solid #244753",
+    "--d-border-radius": "10px",
+    "--d-border-radius-large": "16px",
+    "--shadow-card": "0 10px 30px rgba(0, 0, 0, 0.46)",
+    "--shadow-dropdown": "0 12px 36px rgba(0, 0, 0, 0.62)"
+  },
+  "patches": {
+    "headerGlass": true,
+    "topicCardElevation": false,
+    "radiusScale": 102,
+    "shadowIntensity": 120
+  },
+  "settings": {
+    "enableFloatingButton": false
+  },
+  "meta": {
+    "author": "",
+    "createdAt": ""
+  }
+}

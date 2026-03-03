@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "kind": "theme-pack",
+  "name": "Claude Dark",
+  "basePreset": "claude-dark",
+  "tokens": {
+    "--primary": "#e9e3d9",
+    "--primary-high": "#c9c2b8",
+    "--primary-medium": "#a69e93",
+    "--secondary": "#12110f",
+    "--tertiary": "#d99a4f",
+    "--header_background": "#161411",
+    "--header_primary": "#ece4d8",
+    "--background-color": "#0f0e0c",
+    "--d-content-background": "#181613",
+    "--d-selected": "#2d241a",
+    "--d-hover": "rgba(217, 154, 79, 0.20)",
+    "--link-color": "#e0a35f",
+    "--link-color-hover": "#efb97f",
+    "--content-border-color": "#2d2720",
+    "--d-button-default-border": "1px solid #433826",
+    "--d-border-radius": "11px",
+    "--d-border-radius-large": "18px",
+    "--shadow-card": "0 10px 30px rgba(0, 0, 0, 0.45)",
+    "--shadow-dropdown": "0 12px 32px rgba(0, 0, 0, 0.62)"
+  },
+  "patches": {
+    "headerGlass": true,
+    "topicCardElevation": false,
+    "radiusScale": 108,
+    "shadowIntensity": 115
+  },
+  "settings": {
+    "enableFloatingButton": false
+  },
+  "meta": {
+    "author": "",
+    "createdAt": ""
+  }
+}

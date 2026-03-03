@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "kind": "theme-pack",
+  "name": "Claude Light",
+  "basePreset": "claude-light",
+  "tokens": {
+    "--primary": "#1f1f1a",
+    "--primary-high": "#3f3b33",
+    "--primary-medium": "#6f685d",
+    "--secondary": "#f7f3ec",
+    "--tertiary": "#b97835",
+    "--header_background": "#f7f3ec",
+    "--header_primary": "#1f1f1a",
+    "--background-color": "#efe8de",
+    "--d-content-background": "#fbf8f2",
+    "--d-selected": "#e9dcc8",
+    "--d-hover": "rgba(185, 120, 53, 0.14)",
+    "--link-color": "#8f5f2b",
+    "--link-color-hover": "#71481f",
+    "--content-border-color": "#ddcdb7",
+    "--d-button-default-border": "1px solid #d7c2a8",
+    "--d-border-radius": "11px",
+    "--d-border-radius-large": "18px",
+    "--shadow-card": "0 8px 26px rgba(45, 36, 24, 0.09)",
+    "--shadow-dropdown": "0 10px 28px rgba(45, 36, 24, 0.15)"
+  },
+  "patches": {
+    "headerGlass": true,
+    "topicCardElevation": false,
+    "radiusScale": 108,
+    "shadowIntensity": 95
+  },
+  "settings": {
+    "enableFloatingButton": false
+  },
+  "meta": {
+    "author": "",
+    "createdAt": ""
+  }
+}

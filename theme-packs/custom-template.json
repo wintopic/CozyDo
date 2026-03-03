@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "kind": "theme-pack",
+  "name": "My Theme",
+  "basePreset": "claude-dark",
+  "tokens": {
+    "--tertiary": "#2ec9d3",
+    "--link-color": "#5adce4",
+    "--link-color-hover": "#89eaf0"
+  },
+  "patches": {
+    "headerGlass": true,
+    "topicCardElevation": false,
+    "radiusScale": 100,
+    "shadowIntensity": 100
+  },
+  "settings": {
+    "enableFloatingButton": false
+  },
+  "meta": {
+    "author": "",
+    "createdAt": ""
+  }
+}

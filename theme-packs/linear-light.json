@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "kind": "theme-pack",
+  "name": "Linear Light",
+  "basePreset": "linear-light",
+  "tokens": {
+    "--primary": "#111113",
+    "--primary-high": "#2e2f33",
+    "--primary-medium": "#666871",
+    "--secondary": "#fcfcfd",
+    "--tertiary": "#4f6dff",
+    "--header_background": "#ffffff",
+    "--header_primary": "#111113",
+    "--background-color": "#f6f7f9",
+    "--d-content-background": "#ffffff",
+    "--d-selected": "#edf0f7",
+    "--d-hover": "rgba(79, 109, 255, 0.13)",
+    "--link-color": "#3d57de",
+    "--link-color-hover": "#2f47bf",
+    "--content-border-color": "#e4e7ee",
+    "--d-button-default-border": "1px solid #d9dde8",
+    "--d-border-radius": "9px",
+    "--d-border-radius-large": "14px",
+    "--shadow-card": "0 4px 18px rgba(15, 22, 46, 0.07)",
+    "--shadow-dropdown": "0 8px 24px rgba(15, 22, 46, 0.13)"
+  },
+  "patches": {
+    "headerGlass": false,
+    "topicCardElevation": false,
+    "radiusScale": 96,
+    "shadowIntensity": 70
+  },
+  "settings": {
+    "enableFloatingButton": false
+  },
+  "meta": {
+    "author": "",
+    "createdAt": ""
+  }
+}
