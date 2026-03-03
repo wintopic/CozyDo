@@ -7,7 +7,7 @@ import vm from "node:vm";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const SCRIPT_PATH = path.resolve(__dirname, "..", "linuxdo-theme.user.js");
+const SCRIPT_PATH = path.resolve(__dirname, "..", "cozydo-theme.user.js");
 const SCRIPT_SOURCE = readFileSync(SCRIPT_PATH, "utf8");
 
 function createElement(tagName, doc) {
@@ -256,7 +256,7 @@ function loadRuntime({ withDiscourse = false, withHeaderIcons = false, localStor
   context.globalThis = context;
 
   vm.createContext(context);
-  vm.runInContext(SCRIPT_SOURCE, context, { filename: "linuxdo-theme.user.js" });
+  vm.runInContext(SCRIPT_SOURCE, context, { filename: "cozydo-theme.user.js" });
 
   return {
     api: context.__LDT_TEST_API__,

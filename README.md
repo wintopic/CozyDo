@@ -17,13 +17,13 @@
 - 论坛适配：自动处理前台路由切换，避免在后台管理页面干扰。
 
 ## 目录说明
-- `linuxdo-theme.user.js`：主脚本（当前文件名保留以兼容历史安装方式，项目名已更新为 CozyDo）。
+- `cozydo-theme.user.js`：主脚本。
 - `theme-packs/`：示例主题包与模板。
 - `tests/`：脚本级单元测试。
 
 ## 安装方式
 1. 安装 Tampermonkey 扩展。
-2. 新建脚本并粘贴 `linuxdo-theme.user.js` 全部内容。
+2. 新建脚本并粘贴 `cozydo-theme.user.js` 全部内容。
 3. 打开 `https://linux.do` 或其子域名，脚本自动生效。
 
 ## 使用说明
@@ -69,7 +69,7 @@
 在当前目录执行：
 
 ```bash
-node --test tests/linuxdo-theme.user.test.mjs
+node --test tests/cozydo-theme.user.test.mjs
 ```
 
 ## 开源发布建议

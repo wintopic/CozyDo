@@ -1345,7 +1345,7 @@ ${buildProfilePatchCSS(theme.patchProfile, shadowScale)}`;
         tokens: resolvedTokens,
       },
       compatibility: {
-        exporter: `linuxdo-theme.user.js@${SCRIPT_VERSION}`,
+        exporter: `cozydo-theme.user.js@${SCRIPT_VERSION}`,
         exportedAt: nowISO(),
         tokenEncoding: "resolved-full",
         tokenKeys: TOKEN_KEYS,
@@ -1421,7 +1421,7 @@ ${buildProfilePatchCSS(theme.patchProfile, shadowScale)}`;
         themes,
       },
       compatibility: {
-        exporter: `linuxdo-theme.user.js@${SCRIPT_VERSION}`,
+        exporter: `cozydo-theme.user.js@${SCRIPT_VERSION}`,
         exportedAt: nowISO(),
         tokenEncoding: "resolved-full",
         tokenKeys: TOKEN_KEYS,
